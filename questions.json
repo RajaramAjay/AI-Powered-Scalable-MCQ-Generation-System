@@ -1,0 +1,290 @@
+{
+  "questions": [
+    {
+      "question": "How does the conjugate anti-symmetry property of complex signals relate to the decomposition of these signals?",
+      "choices": {
+        "A": "It facilitates the direct separation of a complex signal into its real and imaginary parts.",
+        "B": "It's crucial for expressing the signal solely as an even function.",
+        "C": "It enables decomposition into even and odd components, contributing to Fourier analysis.",
+        "D": "It simplifies signal processing by eliminating the need for complex arithmetic."
+      },
+      "answer": "C",
+      "ground_truth": "Conjugate Anti-symmetric Signals: **  For complex signals, conjugate anti-symmetry means x(t) = -x*(-t),  the opposite of conjugate symmetry; this property, while less frequently encountered than conjugate symmetry,  plays a role in the decomposition of complex signals into even and odd components, relevant particularly within the context of Fourier analysis."
+    },
+    {
+      "question": "Considering the lesser prevalence of conjugate anti-symmetry compared to conjugate symmetry, what can be inferred about its practical applications?",
+      "choices": {
+        "A": "Conjugate anti-symmetry is irrelevant to signal processing and Fourier analysis.",
+        "B": "Its limited applications restrict it to niche areas within signal processing.",
+        "C": "While less common, it still holds significance in specific signal decomposition methods.",
+        "D": "Its lack of widespread use indicates a fundamental flaw in the property itself."
+      },
+      "answer": "C",
+      "ground_truth": "Conjugate Anti-symmetric Signals: **  For complex signals, conjugate anti-symmetry means x(t) = -x*(-t),  the opposite of conjugate symmetry; this property, while less frequently encountered than conjugate symmetry,  plays a role in the decomposition of complex signals into even and odd components, relevant particularly within the context of Fourier analysis."
+    },
+    {
+      "question": "What crucial property distinguishes the real and imaginary components of a conjugate symmetric complex signal, and how does this simplification impact Fourier transform analysis?",
+      "choices": {
+        "A": "The real component is odd, the imaginary component is even; this simplifies convolution in the frequency domain.",
+        "B": "The real component is even, the imaginary component is odd; this simplifies spectral analysis by reducing computational complexity.",
+        "C": "Both components are even; this simplifies the inverse Fourier transform.",
+        "D": "Both components are odd; this simplifies the direct Fourier transform."
+      },
+      "answer": "B",
+      "ground_truth": "Conjugate Symmetric Signals: ** For complex signals x(t) = a(t) + jb(t), conjugate symmetry means x(t) = x*(-t), where '*' denotes complex conjugation; this implies the real part, a(t), is even, and the imaginary part, b(t), is odd, simplifying analysis in certain contexts, especially within Fourier transforms."
+    },
+    {
+      "question": "Given that any real signal can be decomposed into even and odd components, how does this decomposition relate to the concept of conjugate symmetry in complex signals, and what analytical advantages might this offer?",
+      "choices": {
+        "A": "The decomposition is unrelated to conjugate symmetry; it only simplifies signal representation.",
+        "B": "The even component of the real part mirrors the conjugate symmetry property, facilitating easier analysis of the signal's spectrum.",
+        "C": "The odd component provides information about the phase spectrum, while conjugate symmetry only impacts magnitude.",
+        "D": "The decomposition allows for easier conversion between time and frequency domains independently of conjugate symmetry."
+      },
+      "answer": "B",
+      "ground_truth": "Conjugate Symmetric Signals: ** For complex signals x(t) = a(t) + jb(t), conjugate symmetry means x(t) = x*(-t), where '*' denotes complex conjugation; this implies the real part, a(t), is even, and the imaginary part, b(t), is odd, simplifying analysis in certain contexts, especially within Fourier transforms."
+    },
+    {
+      "question": "What crucial implication arises from the inherent property of an odd signal's integral always equaling zero over a symmetric interval, particularly within the context of signal decomposition and analysis?",
+      "choices": {
+        "A": "It simplifies Fourier series calculations by eliminating the need for complex integration techniques.",
+        "B": "It directly proves that odd signals are inherently unstable and prone to distortion during signal processing.",
+        "C": "It allows for efficient signal representation using only odd-indexed harmonic components.",
+        "D": "It ensures the orthogonality of odd signals with even signals, facilitating their independent analysis and processing."
+      },
+      "answer": "D",
+      "ground_truth": "Odd Signals: ** An odd signal exhibits symmetry about the origin, meaning x(t) = -x(-t) for all t; examples include sin(\u03c9t) and t, indicating their properties in signal decomposition and analysis, where their integral over a symmetric interval is always zero."
+    },
+    {
+      "question": "Considering the provided information on conjugate-symmetric signals, how would the properties of the real and imaginary components, magnitude, and phase differ if the signal were conjugate anti-symmetric instead?",
+      "choices": {
+        "A": "The real part would become odd, the imaginary part even, the magnitude odd, and the phase even.",
+        "B": "The real and imaginary parts would remain unchanged, while magnitude and phase would both become odd.",
+        "C": "All properties (real, imaginary, magnitude, and phase) would remain unchanged.",
+        "D": "The real part would remain even, the imaginary part odd, the magnitude even, and the phase odd."
+      },
+      "answer": "A",
+      "ground_truth": "Odd Signals: ** An odd signal exhibits symmetry about the origin, meaning x(t) = -x(-t) for all t; examples include sin(\u03c9t) and t, indicating their properties in signal decomposition and analysis, where their integral over a symmetric interval is always zero."
+    },
+    {
+      "question": "How does the representation of x[n] = cos(\u03c9n) exemplify the core characteristic of discrete-time signals?",
+      "choices": {
+        "A": "It demonstrates the signal's periodicity, a common feature in continuous-time signals.",
+        "B": "It shows the signal's continuous nature, allowing for analysis across a spectrum of time values.",
+        "C": "It highlights the signal's definition at only specific, discrete points in time, reflecting its sampled nature.",
+        "D": "It illustrates the signal's dependence on amplitude, independent of the time variable."
+      },
+      "answer": "C",
+      "ground_truth": "Discrete-Time (DT) Signals: ** Discrete-time signals are defined only at discrete time points 'n', often representing sampled versions of continuous-time signals or inherently discrete data like stock prices; they are represented as x[n], with examples including x[n] = cos(\u03c9n) and x[n] = a\u207f, illustrating their use in digital signal processing and applications involving quantized data."
+    },
+    {
+      "question": "Considering the contrast between continuous-time signals (like x(t)) and discrete-time signals (like x[n]), what crucial implication arises from the sampling process represented by x[n] = x(nTs)?",
+      "choices": {
+        "A": "The sampling rate (Ts) has no effect on the accuracy or information content of x[n].",
+        "B": "The discrete-time signal inherently contains more information than the original continuous-time signal.",
+        "C": "Information loss is unavoidable during the conversion from x(t) to x[n], influenced directly by Ts.",
+        "D": "The conversion perfectly preserves all features of x(t) in x[n], without any loss of detail."
+      },
+      "answer": "C",
+      "ground_truth": "Discrete-Time (DT) Signals: ** Discrete-time signals are defined only at discrete time points 'n', often representing sampled versions of continuous-time signals or inherently discrete data like stock prices; they are represented as x[n], with examples including x[n] = cos(\u03c9n) and x[n] = a\u207f, illustrating their use in digital signal processing and applications involving quantized data."
+    },
+    {
+      "question": "What crucial implication arises from the inherent symmetry of even signals regarding their behavior under integration?",
+      "choices": {
+        "A": "Integration of even signals always results in zero.",
+        "B": "Integration of even signals simplifies significantly due to symmetry.",
+        "C": "Integration of even signals is always more complex than for odd signals.",
+        "D": "Integration of even signals requires specialized numerical techniques."
+      },
+      "answer": "B",
+      "ground_truth": "Even Signals: **  An even signal exhibits symmetry about the y-axis, meaning x(t) = x(-t) for all t; examples include cos(\u03c9t) and t\u00b2, highlighting their unique properties under operations like integration and convolution, often simplifying calculations."
+    },
+    {
+      "question": "Considering the even-odd decomposition of a real signal, x(t) = x<sub>e</sub>(t) + x<sub>o</sub>(t), what inherent property of x<sub>e</sub>(t) and x<sub>o</sub>(t) facilitates signal analysis and manipulation?",
+      "choices": {
+        "A": "x<sub>e</sub>(t) and x<sub>o</sub>(t) are always orthogonal.",
+        "B": "x<sub>e</sub>(t) and x<sub>o</sub>(t) are always linearly dependent.",
+        "C": "x<sub>e</sub>(t) and x<sub>o</sub>(t) possess distinct symmetry properties simplifying certain operations.",
+        "D": "x<sub>e</sub>(t) and x<sub>o</sub>(t) always have the same amplitude spectrum."
+      },
+      "answer": "C",
+      "ground_truth": "Even Signals: **  An even signal exhibits symmetry about the y-axis, meaning x(t) = x(-t) for all t; examples include cos(\u03c9t) and t\u00b2, highlighting their unique properties under operations like integration and convolution, often simplifying calculations."
+    },
+    {
+      "question": "How does the sign of the parameter 'a' (continuous time) or 'r' (discrete time) in a real exponential signal affect the signal's behavior over time?",
+      "choices": {
+        "A": "A positive 'a' or 'r' indicates exponential decay, while a negative 'a' or 'r' indicates exponential growth.",
+        "B": "The sign has no effect; only the magnitude determines growth or decay.",
+        "C": "A positive 'a' or 'r' indicates exponential growth, while a negative 'a' or 'r' (and 0 < r < 1) indicates exponential decay.",
+        "D": "A positive 'a' or 'r' indicates oscillation, while a negative 'a' or 'r' indicates exponential growth or decay depending on the magnitude."
+      },
+      "answer": "C",
+      "ground_truth": "Real Exponential Signals (CT & DT): ** Real exponential signals, represented as x(t) = Ae^(at) in continuous time and x[n] = Ar\u207f in discrete time, model phenomena exhibiting exponential growth or decay; the parameter 'a' (or 'r') determines the rate of growth (a>0 or r>1) or decay (a<0 or 0<r<1), finding applications in modeling phenomena like capacitor discharge (CT) and compound interest (DT)."
+    },
+    {
+      "question": "Considering the provided examples of capacitor discharge and compound interest,  what fundamental characteristic of exponential signals allows them to model both these seemingly disparate phenomena?",
+      "choices": {
+        "A": "Their oscillatory nature, capable of reflecting the fluctuating behavior of both processes.",
+        "B": "Their ability to represent processes with abrupt changes in value.",
+        "C": "Their inherent capacity for both constant growth and decay, mirroring the dynamic shifts found in compound interest and capacitor discharge.",
+        "D": "Their dependence on purely linear relationships between time and the measured quantity."
+      },
+      "answer": "C",
+      "ground_truth": "Real Exponential Signals (CT & DT): ** Real exponential signals, represented as x(t) = Ae^(at) in continuous time and x[n] = Ar\u207f in discrete time, model phenomena exhibiting exponential growth or decay; the parameter 'a' (or 'r') determines the rate of growth (a>0 or r>1) or decay (a<0 or 0<r<1), finding applications in modeling phenomena like capacitor discharge (CT) and compound interest (DT)."
+    },
+    {
+      "question": "How does the representation of a continuous-time signal differ fundamentally from that of a discrete-time signal, and what practical implication arises from this difference?",
+      "choices": {
+        "A": "Continuous-time signals are defined only at specific time points, while discrete-time signals are defined for all values of time; this limits the accuracy of discrete-time signal analysis.",
+        "B": "Continuous-time signals use a continuous range of time values, whereas discrete-time signals use only a discrete set of time points; this makes discrete-time signals easier to process digitally.",
+        "C": "Continuous-time signals are represented by analog waveforms, while discrete-time signals are represented by digital numbers; this distinction impacts the types of mathematical operations that can be readily applied.",
+        "D": "Continuous-time signals are always periodic, while discrete-time signals can be aperiodic or periodic; this influences the applicability of Fourier analysis techniques."
+      },
+      "answer": "B",
+      "ground_truth": "Continuous-Time (CT) Signals: ** Continuous-time signals are defined for all values of time 't', representing phenomena that evolve continuously, such as a voltage across a capacitor; examples include x(t) = sin(\u03c9t) and x(t) = e\u207b\u1d43\u1d57,  contrasting with discrete-time signals which only exist at specific points in time."
+    },
+    {
+      "question": "Considering the examples provided, what characteristic distinguishes a signal representing a physical phenomenon (like voltage across a capacitor) from a purely mathematical function, and why is this distinction important in the context of signal processing?",
+      "choices": {
+        "A": "Physical signals always have a finite duration, while mathematical functions can be infinite; this limits the ability to perform certain transformations on physical signals.",
+        "B": "Physical signals are inherently noisy, unlike idealized mathematical functions; this noise must be accounted for in signal processing algorithms.",
+        "C": "Physical signals are always deterministic, whereas mathematical functions can be stochastic; this influences the choice of analytical methods used.",
+        "D": "Physical signals are typically represented by transcendental functions, whereas mathematical functions can have any form; this difference is insignificant in practical signal processing."
+      },
+      "answer": "B",
+      "ground_truth": "Continuous-Time (CT) Signals: ** Continuous-time signals are defined for all values of time 't', representing phenomena that evolve continuously, such as a voltage across a capacitor; examples include x(t) = sin(\u03c9t) and x(t) = e\u207b\u1d43\u1d57,  contrasting with discrete-time signals which only exist at specific points in time."
+    },
+    {
+      "question": "How does the concept of the unit step function facilitate the representation and analysis of complex signals?",
+      "choices": {
+        "A": "By directly providing the exact numerical values of the signal at each point in time.",
+        "B": "By simplifying the representation of signals with abrupt changes, breaking them into manageable piecewise segments.",
+        "C": "By eliminating the need for mathematical analysis, providing a purely visual representation of the signal.",
+        "D": "By focusing exclusively on the continuous parts of a signal, ignoring any discontinuities."
+      },
+      "answer": "B",
+      "ground_truth": "Unit Step Function (CT & DT): ** The unit step function, u(t) (CT) and u[n] (DT), models a signal that abruptly changes from 0 to 1 (or vice-versa) at a specific point in time; its usefulness lies in representing abrupt changes or switching behavior in systems, simplifying the representation of piecewise defined signals and being fundamental in calculating other signals like the ramp signal."
+    },
+    {
+      "question": "Considering the challenges posed by discontinuous signals, what role does the unit step function play in addressing the derivative calculation for such signals?",
+      "choices": {
+        "A": "It renders the concept of derivative inapplicable to discontinuous signals, necessitating alternative analytical methods.",
+        "B": "It eliminates the discontinuities, allowing for direct application of standard derivative rules.",
+        "C": "It enables the expression of the derivative as a combination of the derivative of the continuous part and an impulse function representing the discontinuity.",
+        "D": "It replaces the discontinuous signal with a continuous approximation, simplifying the calculation but potentially sacrificing accuracy."
+      },
+      "answer": "C",
+      "ground_truth": "Unit Step Function (CT & DT): ** The unit step function, u(t) (CT) and u[n] (DT), models a signal that abruptly changes from 0 to 1 (or vice-versa) at a specific point in time; its usefulness lies in representing abrupt changes or switching behavior in systems, simplifying the representation of piecewise defined signals and being fundamental in calculating other signals like the ramp signal."
+    },
+    {
+      "question": "What fundamental limitation of the Dirac delta function, as described, necessitates its treatment as a mathematical construct rather than a purely physical phenomenon?",
+      "choices": {
+        "A": "Its infinitely high amplitude at a single point violates the principles of energy conservation.",
+        "B": "Its definition relies on concepts from quantum mechanics, which are not applicable to classical signal processing.",
+        "C": "Its application is restricted to discrete-time systems and cannot be generalized to continuous-time scenarios.",
+        "D": "Its lack of formal definition as a traditional function necessitates the use of distribution theory for rigorous treatment."
+      },
+      "answer": "D",
+      "ground_truth": "Impulse/Delta Function (CT & DT): ** The impulse function, \u03b4(t) (CT) and \u03b4[n] (DT), represents a signal with an infinitely high amplitude at a single point and zero elsewhere (CT) or only a non-zero value at a single point (DT), possessing the crucial \"Sifting Property\" enabling signal analysis through weighted sums or integrals;  it's used in representing signals concisely and facilitating the understanding of convolution."
+    },
+    {
+      "question": "Given the 'Sifting Property' and its role in convolution, what critical analytical capability does the impulse function provide in the context of signal processing?",
+      "choices": {
+        "A": "The ability to directly measure the amplitude of any arbitrary signal at a specific time point.",
+        "B": "The simplification of complex signals into a series of easily manageable discrete components.",
+        "C": "The capacity to decompose a complex signal into its constituent frequency components through Fourier analysis.",
+        "D": "The efficient representation of a system's response to any input signal by examining the response to an impulse input."
+      },
+      "answer": "D",
+      "ground_truth": "Impulse/Delta Function (CT & DT): ** The impulse function, \u03b4(t) (CT) and \u03b4[n] (DT), represents a signal with an infinitely high amplitude at a single point and zero elsewhere (CT) or only a non-zero value at a single point (DT), possessing the crucial \"Sifting Property\" enabling signal analysis through weighted sums or integrals;  it's used in representing signals concisely and facilitating the understanding of convolution."
+    },
+    {
+      "question": "Explain the significance of the sinc function's appearance in the inverse continuous-time Fourier transform (ICTFT) of a rectangular signal, as illustrated in the provided example.",
+      "choices": {
+        "A": "It demonstrates the sinc function's mathematical elegance, showcasing its ability to represent complex signals.",
+        "B": "It highlights the sinc function's role in simplifying otherwise intricate calculations involved in signal processing.",
+        "C": "It reveals the fundamental relationship between rectangular pulses in the frequency domain and the sinc function in the time domain, crucial for understanding signal reconstruction.",
+        "D": "It underscores the sinc function's utility as a convenient mathematical tool for approximating real-world signals."
+      },
+      "answer": "C",
+      "ground_truth": "Sinc Function: ** The sinc function, sinc(t) = sin(\u03c0t)/(\u03c0t), plays a crucial role in signal processing, particularly in the context of sampling and reconstruction; its appearance in the Fourier transform of rectangular pulses and its use in interpolating sampled signals highlight its importance in bridging the gap between continuous-time and discrete-time domains."
+    },
+    {
+      "question": "Considering the sinc function's role in bridging continuous-time and discrete-time domains, what crucial implication does this have for practical applications in signal processing?",
+      "choices": {
+        "A": "It simplifies the design of complex filters requiring minimal computational power.",
+        "B": "It allows for the efficient conversion of continuous signals into discrete representations for digital processing and vice-versa, enabling applications like digital audio and image processing.",
+        "C": "It facilitates the development of advanced signal compression techniques, reducing storage requirements for digital signals.",
+        "D": "It improves the accuracy of signal measurements by mitigating the effects of noise and interference."
+      },
+      "answer": "B",
+      "ground_truth": "Sinc Function: ** The sinc function, sinc(t) = sin(\u03c0t)/(\u03c0t), plays a crucial role in signal processing, particularly in the context of sampling and reconstruction; its appearance in the Fourier transform of rectangular pulses and its use in interpolating sampled signals highlight its importance in bridging the gap between continuous-time and discrete-time domains."
+    },
+    {
+      "question": "How does the concept of a rectangular signal, as a fundamental building block, facilitate the analysis of more complex signal shapes?",
+      "choices": {
+        "A": "Rectangular signals directly transform into complex shapes through Fourier analysis, simplifying the process.",
+        "B": "Complex signals are inherently composed of multiple overlapping rectangular pulses, making decomposition straightforward.",
+        "C": "Rectangular signals serve as basic components that can be combined\u2014through superposition and other operations\u2014to approximate or represent more intricate signal structures.",
+        "D": "The inherent simplicity of rectangular signals allows for direct mathematical manipulation, making complex shape analysis unnecessary."
+      },
+      "answer": "C",
+      "ground_truth": "Rectangular Signals (CT & DT): ** Rectangular signals, rect(t) (CT) and rect[n] (DT), model signals active only within a specific finite time window; these functions are vital for representing pulses and windows in signal processing, used to segment signals and isolate portions of interest, and as building blocks to construct more complex signal shapes."
+    },
+    {
+      "question": "Considering the relationship between continuous-time (CT) and discrete-time (DT) rectangular signals and the process of sampling, what crucial role does sampling play in enabling the practical application of these signals in digital signal processing?",
+      "choices": {
+        "A": "Sampling allows for the direct conversion of DT rectangular signals into CT rectangular signals for compatibility with digital systems.",
+        "B": "Sampling is a purely mathematical operation unrelated to the practical application of rectangular signals in digital systems.",
+        "C": "Sampling converts continuous signals, which may include rectangular components, into discrete representations suitable for processing by digital computers, thus bridging the analog and digital realms.",
+        "D": "Sampling eliminates the need for rectangular signals in digital signal processing by simplifying signal representations."
+      },
+      "answer": "C",
+      "ground_truth": "Rectangular Signals (CT & DT): ** Rectangular signals, rect(t) (CT) and rect[n] (DT), model signals active only within a specific finite time window; these functions are vital for representing pulses and windows in signal processing, used to segment signals and isolate portions of interest, and as building blocks to construct more complex signal shapes."
+    },
+    {
+      "question": "Analyzing the provided formulas for even and odd signal decomposition, explain why decomposing a signal into its even and odd components simplifies signal analysis. What fundamental characteristic of signals does this decomposition exploit?",
+      "choices": {
+        "A": "It simplifies signal analysis by reducing computational complexity, thereby allowing for faster processing of large datasets.",
+        "B": "It simplifies analysis by eliminating high-frequency components which are often the source of noise and distortion.",
+        "C": "The decomposition exploits the inherent symmetry properties of signals, separating symmetric and anti-symmetric components that can be analyzed independently.",
+        "D": "It simplifies analysis by identifying and removing redundant information, thus producing a more compact representation of the signal."
+      },
+      "answer": "C",
+      "ground_truth": "Even/Odd Signal Decomposition: ** Any real signal can be uniquely decomposed into the sum of an even and an odd signal, with the even part defined as x\u2091(t) = 0.5[x(t) + x(-t)] and the odd part as x\u2092(t) = 0.5[x(t) - x(-t)]; this decomposition simplifies analysis by separating the symmetric and anti-symmetric components of a signal, useful in various signal processing techniques."
+    },
+    {
+      "question": "Given the properties of even and odd signals (e.g., even \u00b1 even = even, odd \u00b1 odd = odd),  predict the outcome of adding an even signal to a signal that is neither even nor odd.  Substantiate your response.",
+      "choices": {
+        "A": "The result will always be an even signal.",
+        "B": "The result will always be an odd signal.",
+        "C": "The resulting signal will be neither even nor odd.",
+        "D": "The result will be a signal with properties dependent on the specific even and neither-even-nor-odd signals involved, potentially resulting in an even, odd, or neither-even-nor-odd signal."
+      },
+      "answer": "C",
+      "ground_truth": "Even/Odd Signal Decomposition: ** Any real signal can be uniquely decomposed into the sum of an even and an odd signal, with the even part defined as x\u2091(t) = 0.5[x(t) + x(-t)] and the odd part as x\u2092(t) = 0.5[x(t) - x(-t)]; this decomposition simplifies analysis by separating the symmetric and anti-symmetric components of a signal, useful in various signal processing techniques."
+    },
+    {
+      "question": "How does the linearity property of a system, as defined, impact the system's response to a ramp signal composed of multiple linearly combined input signals?",
+      "choices": {
+        "A": "The system's response will be a ramp signal with a slope equal to the sum of the slopes of the individual ramp signals, irrespective of the system's linearity.",
+        "B": "A linear system's response to a linearly combined ramp input will be the same linear combination of the system's responses to each individual ramp signal.",
+        "C": "The system's output will always be a ramp signal, regardless of whether the system is linear or nonlinear.",
+        "D": "The linearity property is irrelevant to the system's response to a ramp signal, as ramp signals are inherently nonlinear."
+      },
+      "answer": "B",
+      "ground_truth": "Ramp Signals (CT & DT): ** Ramp signals, ramp(t) (CT) and ramp[n] (DT), model signals that increase linearly with time; they are useful for representing linearly increasing phenomena, serving as a fundamental building block for constructing more complex signals and often used in system analysis to evaluate the system's response to linearly increasing inputs."
+    },
+    {
+      "question": "Considering the definition of a linear system and its response to a linear combination of input signals, what can be inferred about a system whose response to a sum of ramp signals is not equal to the sum of its responses to each individual ramp signal?",
+      "choices": {
+        "A": "The system is inherently nonlinear, only responding to ramp signals in a predictable manner under special conditions.",
+        "B": "The system is linear but exhibits unusual behavior when faced with ramp signals as inputs.",
+        "C": "The system is nonlinear, violating the superposition principle that defines linear systems.",
+        "D": "Insufficient information is provided to determine whether the system is linear or nonlinear."
+      },
+      "answer": "C",
+      "ground_truth": "Ramp Signals (CT & DT): ** Ramp signals, ramp(t) (CT) and ramp[n] (DT), model signals that increase linearly with time; they are useful for representing linearly increasing phenomena, serving as a fundamental building block for constructing more complex signals and often used in system analysis to evaluate the system's response to linearly increasing inputs."
+    }
+  ]
+}
