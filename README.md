@@ -54,7 +54,7 @@ sentence-transformers
 ## 📂 Project Structure
 
 ```
-ai_system.ipynb        # Jupyter Notebook with full pipeline
+ai_system.ipynb  # Jupyter Notebook with full pipeline
 .env             # Store API keys (e.g., Gemini, OpenAI)
 requirements.txt # Dependencies list
 output.json      # Generated MCQs (example)
