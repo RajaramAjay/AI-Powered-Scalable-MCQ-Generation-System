@@ -6,3 +6,7 @@ python-dotenv
 tiktoken
 faiss-cpu
 sentence-transformers
+fastapi
+python-multipart
+langchain-huggingface
+uvicorn
