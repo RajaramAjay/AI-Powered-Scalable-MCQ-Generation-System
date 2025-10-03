@@ -95,3 +95,8 @@ output.json      # Generated MCQs (example)
 * Modular design allows easy switching to **OpenAI** or **Anthropic** APIs.
 * **Map-Reduce summarizer** ensures scalability for large documents where a single LLM call would exceed context limits.
 * Scaling can be achieved with **distributed workers** and **larger vector DBs**.
+
+## Sources
+
+* [Savaal Documentation](https://dspace.mit.edu/bitstream/handle/1721.1/162563/chandler-jchand-meng-eecs-2025-thesis.pdf?sequence=1&isAllowed=y)
+* [Savaal: Scalable Concept-Driven Question Generation to Enhance Human Learning](https://arxiv.org/abs/2502.12477)
